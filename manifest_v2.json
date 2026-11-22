@@ -24,7 +24,13 @@
     "xmb9p": {
       "version": "1.0.0",
       "file_name": "downloads/io.github.o_o1112.tantanbubble.release.rpk",
-      "versionCode": 1
+      "versionCode": 1,
+      "updatelogs": [
+        {
+          "version": "1.0.0",
+          "content": "v1.0.0\n- 顶部糖果泡泡逐层下压，底部 Q 版探险小人向上瞄准，支持墙壁镜面反弹与落点虚环预判\n- 新增连击倍率、2 连击彩虹万能球与 3 连击爆破炸弹，普通发球智能抽取可命中边缘色\n- 内置 12 关 3～6 色渐进挑战，支持悬空连落双倍分、本地星级最高分存档与短震开关"
+        }
+      ]
     }
   },
   "ext": {}
