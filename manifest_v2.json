@@ -1,0 +1,31 @@
+{
+  "item": {
+    "id": "io.github.o_o1112.tantanbubble",
+    "restype": "quick_app",
+    "name": "弹弹泡泡",
+    "description": "适配小米手环 9 Pro 的益智弹射消球小游戏，支持拖拽瞄准墙壁反弹并实时预判蜂巢落点，冲击三星通关。\n\n游戏特色\n- 墙壁反弹与落点虚环：按住屏幕拖动即可显示折射瞄准点阵，末端提前亮出目标落点圆环\n- 智能抽球不卡死色：常规待发球仅从场上可命中的边缘泡泡颜色抽取，点按左下备用球可一秒互换\n- 连击奖励特殊泡泡：连续消球累计连击倍率，达成 2 连击奖彩虹万能球、3 连击奖大范围爆破炸弹\n- 悬空整串坠落双倍分：打断顶部支点让下方未连接泡泡成片掉落，触发额外爆分\n- 12 道固定挑战关卡：颜色从 3 色逐步升级至 6 色，本地保存三星成绩、最高分与震动设置\n\n操作说明\n1. 在手环屏幕中上方按住并左右滑动调整角度，松手射出泡泡\n2. 点击左下角备用球与当前待发球互换颜色\n3. 清空场上所有彩球即可过关并解锁下一关",
+    "preview": [
+      "media/astrobox_cover.png",
+      "media/astrobox_preview_1.png",
+      "media/astrobox_preview_2.png",
+      "media/astrobox_preview_3.png"
+    ],
+    "icon": "media/logo.png",
+    "cover": "media/astrobox_cover.png",
+    "author": [
+      {
+        "name": "bandbbs_1803777",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [],
+  "downloads": {
+    "xmb9p": {
+      "version": "1.0.0",
+      "file_name": "downloads/io.github.o_o1112.tantanbubble.release.rpk",
+      "versionCode": 1
+    }
+  },
+  "ext": {}
+}
