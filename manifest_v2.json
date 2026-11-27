@@ -3,7 +3,7 @@
     "id": "io.github.o_o1112.tantanbubble",
     "restype": "quick_app",
     "name": "弹弹泡泡",
-    "description": "适配小米手环 9 Pro 的益智弹射消球小游戏，支持拖拽瞄准墙壁反弹并实时预判蜂巢落点，冲击三星通关。\n\n游戏特色\n- 墙壁反弹与落点虚环：按住屏幕拖动即可显示折射瞄准点阵，末端提前亮出目标落点圆环\n- 智能抽球不卡死色：常规待发球仅从场上可命中的边缘泡泡颜色抽取，点按左下备用球可一秒互换\n- 连击奖励特殊泡泡：连续消球累计连击倍率，达成 2 连击奖彩虹万能球、3 连击奖大范围爆破炸弹\n- 悬空整串坠落双倍分：打断顶部支点让下方未连接泡泡成片掉落，触发额外爆分\n- 12 道固定挑战关卡：颜色从 3 色逐步升级至 6 色，本地保存三星成绩、最高分与震动设置\n\n操作说明\n1. 在手环屏幕中上方按住并左右滑动调整角度，松手射出泡泡\n2. 点击左下角备用球与当前待发球互换颜色\n3. 清空场上所有彩球即可过关并解锁下一关",
+    "description": "适配小米vela 的益智弹射消球小游戏，支持拖拽瞄准墙壁反弹并实时预判蜂巢落点，冲击三星通关。\n\n游戏特色\n- 墙壁反弹与落点虚环：按住屏幕拖动即可显示折射瞄准点阵，末端提前亮出目标落点圆环\n- 智能抽球不卡死色：常规待发球仅从场上可命中的边缘泡泡颜色抽取，点按左下备用球可一秒互换\n- 连击奖励特殊泡泡：连续消球累计连击倍率，达成 2 连击奖彩虹万能球、3 连击奖大范围爆破炸弹\n- 悬空整串坠落双倍分：打断顶部支点让下方未连接泡泡成片掉落，触发额外爆分\n- 12 道固定挑战关卡：颜色从 3 色逐步升级至 6 色，本地保存三星成绩、最高分与震动设置\n\n操作说明\n1. 在手环屏幕中上方按住并左右滑动调整角度，松手射出泡泡\n2. 点击左下角备用球与当前待发球互换颜色\n3. 清空场上所有彩球即可过关并解锁下一关",
     "preview": [
       "media/astrobox_cover.png",
       "media/astrobox_preview_1.png",
@@ -21,11 +21,114 @@
   },
   "links": [],
   "downloads": {
-    "xmb9p": {
-      "version": "1.0.1",
-      "file_name": "downloads/io.github.o_o1112.tantanbubble.release.rpk",
-      "versionCode": 2,
+    "xmrw5": {
+      "version": "1.1.0",
+      "file_name": "downloads/3_RedmiWatch4-5__tantanbubble.rpk",
+      "versionCode": 3,
       "updatelogs": [
+        {
+          "version": "1.1.0",
+          "content": "v1.1.0（versionCode 3）30 关大扩充与全系列适配更新：\n1. 关卡总数由 12 关扩充至 30 关（90 星满分），第 13~30 关涵盖拱门、蜂巢与 6 色「星渊大合围」等全新挑战；\n2. 完整兼容老版本存档：更新前已通关第 12 关的玩家进入游戏自动解锁第 13 关并保留原有星数与最高分；\n3. 新增小米手环 11（Band 9 / 10 / 11 跑道屏）、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表专属 1:1 适配分包。"
+        }
+      ]
+    },
+    "xmrw5xring": {
+      "version": "1.1.0",
+      "file_name": "downloads/3_RedmiWatch4-5__tantanbubble.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.1.0",
+          "content": "v1.1.0（versionCode 3）30 关大扩充与全系列适配更新：\n1. 关卡总数由 12 关扩充至 30 关（90 星满分），第 13~30 关涵盖拱门、蜂巢与 6 色「星渊大合围」等全新挑战；\n2. 完整兼容老版本存档：更新前已通关第 12 关的玩家进入游戏自动解锁第 13 关并保留原有星数与最高分；\n3. 新增小米手环 11（Band 9 / 10 / 11 跑道屏）、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表专属 1:1 适配分包。"
+        }
+      ]
+    },
+    "xmrw6": {
+      "version": "1.1.0",
+      "file_name": "downloads/3_RedmiWatch4-5__tantanbubble.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.1.0",
+          "content": "v1.1.0（versionCode 3）30 关大扩充与全系列适配更新：\n1. 关卡总数由 12 关扩充至 30 关（90 星满分），第 13~30 关涵盖拱门、蜂巢与 6 色「星渊大合围」等全新挑战；\n2. 完整兼容老版本存档：更新前已通关第 12 关的玩家进入游戏自动解锁第 13 关并保留原有星数与最高分；\n3. 新增小米手环 11（Band 9 / 10 / 11 跑道屏）、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表专属 1:1 适配分包。"
+        }
+      ]
+    },
+    "xmb10": {
+      "version": "1.1.0",
+      "file_name": "downloads/2_Band9-10-11__tantanbubble.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.1.0",
+          "content": "v1.1.0（versionCode 3）30 关大扩充与全系列适配更新：\n1. 关卡总数由 12 关扩充至 30 关（90 星满分），第 13~30 关涵盖拱门、蜂巢与 6 色「星渊大合围」等全新挑战；\n2. 完整兼容老版本存档：更新前已通关第 12 关的玩家进入游戏自动解锁第 13 关并保留原有星数与最高分；\n3. 新增小米手环 11（Band 9 / 10 / 11 跑道屏）、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表专属 1:1 适配分包。"
+        }
+      ]
+    },
+    "xmb10nfc": {
+      "version": "1.1.0",
+      "file_name": "downloads/2_Band9-10-11__tantanbubble.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.1.0",
+          "content": "v1.1.0（versionCode 3）30 关大扩充与全系列适配更新：\n1. 关卡总数由 12 关扩充至 30 关（90 星满分），第 13~30 关涵盖拱门、蜂巢与 6 色「星渊大合围」等全新挑战；\n2. 完整兼容老版本存档：更新前已通关第 12 关的玩家进入游戏自动解锁第 13 关并保留原有星数与最高分；\n3. 新增小米手环 11（Band 9 / 10 / 11 跑道屏）、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表专属 1:1 适配分包。"
+        }
+      ]
+    },
+    "xmb10p": {
+      "version": "1.1.0",
+      "file_name": "downloads/1_Band9Pro-10Pro-8Pro__tantanbubble.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.1.0",
+          "content": "v1.1.0（versionCode 3）30 关大扩充与全系列适配更新：\n1. 关卡总数由 12 关扩充至 30 关（90 星满分），第 13~30 关涵盖拱门、蜂巢与 6 色「星渊大合围」等全新挑战；\n2. 完整兼容老版本存档：更新前已通关第 12 关的玩家进入游戏自动解锁第 13 关并保留原有星数与最高分；\n3. 新增小米手环 11（Band 9 / 10 / 11 跑道屏）、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表专属 1:1 适配分包。"
+        }
+      ]
+    },
+    "xmb11": {
+      "version": "1.1.0",
+      "file_name": "downloads/2_Band9-10-11__tantanbubble.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.1.0",
+          "content": "v1.1.0（versionCode 3）30 关大扩充与全系列适配更新：\n1. 关卡总数由 12 关扩充至 30 关（90 星满分），第 13~30 关涵盖拱门、蜂巢与 6 色「星渊大合围」等全新挑战；\n2. 完整兼容老版本存档：更新前已通关第 12 关的玩家进入游戏自动解锁第 13 关并保留原有星数与最高分；\n3. 新增小米手环 11（Band 9 / 10 / 11 跑道屏）、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表专属 1:1 适配分包。"
+        }
+      ]
+    },
+    "xmb11nfc": {
+      "version": "1.1.0",
+      "file_name": "downloads/2_Band9-10-11__tantanbubble.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.1.0",
+          "content": "v1.1.0（versionCode 3）30 关大扩充与全系列适配更新：\n1. 关卡总数由 12 关扩充至 30 关（90 星满分），第 13~30 关涵盖拱门、蜂巢与 6 色「星渊大合围」等全新挑战；\n2. 完整兼容老版本存档：更新前已通关第 12 关的玩家进入游戏自动解锁第 13 关并保留原有星数与最高分；\n3. 新增小米手环 11（Band 9 / 10 / 11 跑道屏）、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表专属 1:1 适配分包。"
+        }
+      ]
+    },
+    "xmb9": {
+      "version": "1.1.0",
+      "file_name": "downloads/2_Band9-10-11__tantanbubble.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.1.0",
+          "content": "v1.1.0（versionCode 3）30 关大扩充与全系列适配更新：\n1. 关卡总数由 12 关扩充至 30 关（90 星满分），第 13~30 关涵盖拱门、蜂巢与 6 色「星渊大合围」等全新挑战；\n2. 完整兼容老版本存档：更新前已通关第 12 关的玩家进入游戏自动解锁第 13 关并保留原有星数与最高分；\n3. 新增小米手环 11（Band 9 / 10 / 11 跑道屏）、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表专属 1:1 适配分包。"
+        }
+      ]
+    },
+    "xmb9p": {
+      "version": "1.1.0",
+      "file_name": "downloads/1_Band9Pro-10Pro-8Pro__tantanbubble.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.1.0",
+          "content": "v1.1.0（versionCode 3）30 关大扩充与全系列适配更新：\n1. 关卡总数由 12 关扩充至 30 关（90 星满分），第 13~30 关涵盖拱门、蜂巢与 6 色「星渊大合围」等全新挑战；\n2. 完整兼容老版本存档：更新前已通关第 12 关的玩家进入游戏自动解锁第 13 关并保留原有星数与最高分；\n3. 新增小米手环 11（Band 9 / 10 / 11 跑道屏）、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表专属 1:1 适配分包。"
+        },
         {
           "version": "1.0.1",
           "content": "v1.0.1（versionCode 2）更新说明：\n1. 修复 2 连击未稳定奖励彩虹万能球的问题，与 3 连击爆破炸弹连段手感彻底对齐；\n2. 棋盘泡泡物件池扩容至满格 75 颗（54→75），长局堆叠到底线前也不会出现漏绘；\n3. 瞄准反弹指引点延伸至 7 点并缩短触控采样节拍（50ms→32ms），拖动瞄准更跟手；\n4. 补全息屏／切出后台返回后的动画与飞行泡泡自动续跑（onShow），杜绝途中卡死。"
@@ -33,6 +136,72 @@
         {
           "version": "1.0.0",
           "content": "v1.0.0\n- 顶部糖果泡泡逐层下压，底部 Q 版探险小人向上瞄准，支持墙壁镜面反弹与落点虚环预判\n- 新增连击倍率、2 连击彩虹万能球与 3 连击爆破炸弹，普通发球智能抽取可命中边缘色\n- 内置 12 关 3～6 色渐进挑战，支持悬空连落双倍分、本地星级最高分存档与短震开关"
+        }
+      ]
+    },
+    "xmws3": {
+      "version": "1.1.0",
+      "file_name": "downloads/4_WatchS3-S4__tantanbubble.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.1.0",
+          "content": "v1.1.0（versionCode 3）30 关大扩充与全系列适配更新：\n1. 关卡总数由 12 关扩充至 30 关（90 星满分），第 13~30 关涵盖拱门、蜂巢与 6 色「星渊大合围」等全新挑战；\n2. 完整兼容老版本存档：更新前已通关第 12 关的玩家进入游戏自动解锁第 13 关并保留原有星数与最高分；\n3. 新增小米手环 11（Band 9 / 10 / 11 跑道屏）、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表专属 1:1 适配分包。"
+        }
+      ]
+    },
+    "xmws4xring": {
+      "version": "1.1.0",
+      "file_name": "downloads/4_WatchS3-S4__tantanbubble.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.1.0",
+          "content": "v1.1.0（versionCode 3）30 关大扩充与全系列适配更新：\n1. 关卡总数由 12 关扩充至 30 关（90 星满分），第 13~30 关涵盖拱门、蜂巢与 6 色「星渊大合围」等全新挑战；\n2. 完整兼容老版本存档：更新前已通关第 12 关的玩家进入游戏自动解锁第 13 关并保留原有星数与最高分；\n3. 新增小米手环 11（Band 9 / 10 / 11 跑道屏）、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表专属 1:1 适配分包。"
+        }
+      ]
+    },
+    "xmws441": {
+      "version": "1.1.0",
+      "file_name": "downloads/4_WatchS3-S4__tantanbubble.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.1.0",
+          "content": "v1.1.0（versionCode 3）30 关大扩充与全系列适配更新：\n1. 关卡总数由 12 关扩充至 30 关（90 星满分），第 13~30 关涵盖拱门、蜂巢与 6 色「星渊大合围」等全新挑战；\n2. 完整兼容老版本存档：更新前已通关第 12 关的玩家进入游戏自动解锁第 13 关并保留原有星数与最高分；\n3. 新增小米手环 11（Band 9 / 10 / 11 跑道屏）、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表专属 1:1 适配分包。"
+        }
+      ]
+    },
+    "xmws4": {
+      "version": "1.1.0",
+      "file_name": "downloads/4_WatchS3-S4__tantanbubble.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.1.0",
+          "content": "v1.1.0（versionCode 3）30 关大扩充与全系列适配更新：\n1. 关卡总数由 12 关扩充至 30 关（90 星满分），第 13~30 关涵盖拱门、蜂巢与 6 色「星渊大合围」等全新挑战；\n2. 完整兼容老版本存档：更新前已通关第 12 关的玩家进入游戏自动解锁第 13 关并保留原有星数与最高分；\n3. 新增小米手环 11（Band 9 / 10 / 11 跑道屏）、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表专属 1:1 适配分包。"
+        }
+      ]
+    },
+    "xmws541": {
+      "version": "1.1.0",
+      "file_name": "downloads/4_WatchS3-S4__tantanbubble.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.1.0",
+          "content": "v1.1.0（versionCode 3）30 关大扩充与全系列适配更新：\n1. 关卡总数由 12 关扩充至 30 关（90 星满分），第 13~30 关涵盖拱门、蜂巢与 6 色「星渊大合围」等全新挑战；\n2. 完整兼容老版本存档：更新前已通关第 12 关的玩家进入游戏自动解锁第 13 关并保留原有星数与最高分；\n3. 新增小米手环 11（Band 9 / 10 / 11 跑道屏）、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表专属 1:1 适配分包。"
+        }
+      ]
+    },
+    "xmws5": {
+      "version": "1.1.0",
+      "file_name": "downloads/4_WatchS3-S4__tantanbubble.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.1.0",
+          "content": "v1.1.0（versionCode 3）30 关大扩充与全系列适配更新：\n1. 关卡总数由 12 关扩充至 30 关（90 星满分），第 13~30 关涵盖拱门、蜂巢与 6 色「星渊大合围」等全新挑战；\n2. 完整兼容老版本存档：更新前已通关第 12 关的玩家进入游戏自动解锁第 13 关并保留原有星数与最高分；\n3. 新增小米手环 11（Band 9 / 10 / 11 跑道屏）、REDMI Watch 4 / 5 / 5 eSIM 方表与 Xiaomi Watch S3 / S4 / S4 eSIM 圆表专属 1:1 适配分包。"
         }
       ]
     }
