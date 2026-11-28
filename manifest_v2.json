@@ -5,13 +5,13 @@
     "name": "弹弹泡泡",
     "description": "适配小米手环与小米／红米手表全系列的益智弹射消球小游戏，支持拖拽瞄准墙壁反弹并实时预判落点，现已全面升级至 v2.0.0。\n\n游戏特色\n- 60 道关卡 + 无尽挑战：涵盖 180 星进阶关卡（自动兼容并接续第 30 关后进度），首页右上角可直入「无尽挑战」刷新历史最高分\n- 冰晶球与石块球新机制：冰晶球在邻格消除时同步碎裂，石块球需用炸弹震碎或切断上方支点整串坠落，并内置防卡死保底抽球\n- 防误触暂停与流畅帧循环：游戏内禁用左滑误退出，左上角升级为暂停弹窗，棋盘整体平移动画搭配自适应帧循环更跟手\n- 连击奖励与特殊球：2 连击奖彩虹万能球、3 连击奖爆破炸弹，点按左下备用球一秒互换\n- 透明底正圆图标：Pro 手环与手表采用 192×192 正圆图标，手环 9/10/11 跑道屏专属适配 100×100 正圆",
     "preview": [
-      "media/astrobox_cover.png",
-      "media/astrobox_preview_1.png",
+      "media/astrobox_cover.jpg",
+      "media/astrobox_preview_1.jpg",
       "media/astrobox_preview_2.png",
-      "media/astrobox_preview_3.png"
+      "media/astrobox_preview_3.jpg"
     ],
     "icon": "media/logo_192x192_circle.png",
-    "cover": "media/astrobox_cover.png",
+    "cover": "media/astrobox_cover.jpg",
     "author": [
       {
         "name": "bandbbs_1803777",
