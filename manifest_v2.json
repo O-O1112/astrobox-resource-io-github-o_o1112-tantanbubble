@@ -3,14 +3,14 @@
     "id": "io.github.o_o1112.tantanbubble",
     "restype": "quick_app",
     "name": "弹弹泡泡",
-    "description": "适配小米vela 的益智弹射消球小游戏，支持拖拽瞄准墙壁反弹并实时预判蜂巢落点，冲击三星通关。\n\n游戏特色\n- 墙壁反弹与落点虚环：按住屏幕拖动即可显示折射瞄准点阵，末端提前亮出目标落点圆环\n- 智能抽球不卡死色：常规待发球仅从场上可命中的边缘泡泡颜色抽取，点按左下备用球可一秒互换\n- 连击奖励特殊泡泡：连续消球累计连击倍率，达成 2 连击奖彩虹万能球、3 连击奖大范围爆破炸弹\n- 悬空整串坠落双倍分：打断顶部支点让下方未连接泡泡成片掉落，触发额外爆分\n- 12 道固定挑战关卡：颜色从 3 色逐步升级至 6 色，本地保存三星成绩、最高分与震动设置\n\n操作说明\n1. 在手环屏幕中上方按住并左右滑动调整角度，松手射出泡泡\n2. 点击左下角备用球与当前待发球互换颜色\n3. 清空场上所有彩球即可过关并解锁下一关",
+    "description": "适配小米手环与小米／红米手表全系列的益智弹射消球小游戏，支持拖拽瞄准墙壁反弹并实时预判落点，现已全面升级至 v2.0.0。\n\n游戏特色\n- 60 道关卡 + 无尽挑战：涵盖 180 星进阶关卡（自动兼容并接续第 30 关后进度），首页右上角可直入「无尽挑战」刷新历史最高分\n- 冰晶球与石块球新机制：冰晶球在邻格消除时同步碎裂，石块球需用炸弹震碎或切断上方支点整串坠落，并内置防卡死保底抽球\n- 防误触暂停与流畅帧循环：游戏内禁用左滑误退出，左上角升级为暂停弹窗，棋盘整体平移动画搭配自适应帧循环更跟手\n- 连击奖励与特殊球：2 连击奖彩虹万能球、3 连击奖爆破炸弹，点按左下备用球一秒互换\n- 透明底正圆图标：Pro 手环与手表采用 192×192 正圆图标，手环 9/10/11 跑道屏专属适配 100×100 正圆",
     "preview": [
       "media/astrobox_cover.png",
       "media/astrobox_preview_1.png",
       "media/astrobox_preview_2.png",
       "media/astrobox_preview_3.png"
     ],
-    "icon": "media/logo_100x100_circle.png",
+    "icon": "media/logo_192x192_circle.png",
     "cover": "media/astrobox_cover.png",
     "author": [
       {
@@ -22,10 +22,14 @@
   "links": [],
   "downloads": {
     "xmrw5": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "file_name": "downloads/3_RedmiWatch4-5__tantanbubble.rpk",
-      "versionCode": 4,
+      "versionCode": 5,
       "updatelogs": [
+        {
+          "version": "2.0.1",
+          "content": "【弹弹泡泡 v2.0.1（versionCode: 5）图标清晰度与全系列同步更新】\n\n1. 修复手环 9 Pro / 10 Pro 与手表桌面图标过小问题（方案 A 透明底正圆图标）：\n- 应玩家反馈重绘高清晰透明底正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆，腕上桌面列表显示更饱满清晰。\n\n2. 延续 v2.0.0 全量玩法与流畅度优化：\n- 防误触退出 ＋ 局内暂停菜单（swipeBack: false + 左上角 || 暂停键）；\n- 自适应帧循环 ＋ 棋盘容器整体平移，瞄准消球更跟手顺滑；\n- 60 道关卡（180 星）含冰晶球、石块球与防卡死保底抽球，首页直入「无尽挑战」模式。\n\n---\n安装包对应机型说明：\n- 1_Band9Pro-10Pro-8Pro__tantanbubble.rpk → 小米手环 9 Pro / 10 Pro / 8 Pro\n- 2_Band9-10-11__tantanbubble.rpk → 小米手环 9 / 10 / 11（跑道屏）\n- 3_RedmiWatch4-5__tantanbubble.rpk → REDMI Watch 4 / 5 / 5 eSIM\n- 4_WatchS3-S4__tantanbubble.rpk → Xiaomi Watch S3 / S4 / S4 eSIM"
+        },
         {
           "version": "2.0.0",
           "content": "1. 防误触退出＋暂停键：游戏内禁止左滑直接退出，左上角改为暂停键（支持继续/重开/局内开关震动/安全退出）\n2. 图标优化：应用图标调整为 100×100 透明底正圆造型\n3. 流畅度优化：升级自适应帧循环与棋盘整层平移下压，大幅降低滑动与消球卡顿\n4. 新增 31～60 关（共 60 关 180 星）：加入「冰晶球」「石块球」双新机制与防卡死保底\n5. 新增「无尽挑战」模式：首页右上角入口，挑战波次高分并自动记录历史最高分"
@@ -37,10 +41,14 @@
       ]
     },
     "xmrw5xring": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "file_name": "downloads/3_RedmiWatch4-5__tantanbubble.rpk",
-      "versionCode": 4,
+      "versionCode": 5,
       "updatelogs": [
+        {
+          "version": "2.0.1",
+          "content": "【弹弹泡泡 v2.0.1（versionCode: 5）图标清晰度与全系列同步更新】\n\n1. 修复手环 9 Pro / 10 Pro 与手表桌面图标过小问题（方案 A 透明底正圆图标）：\n- 应玩家反馈重绘高清晰透明底正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆，腕上桌面列表显示更饱满清晰。\n\n2. 延续 v2.0.0 全量玩法与流畅度优化：\n- 防误触退出 ＋ 局内暂停菜单（swipeBack: false + 左上角 || 暂停键）；\n- 自适应帧循环 ＋ 棋盘容器整体平移，瞄准消球更跟手顺滑；\n- 60 道关卡（180 星）含冰晶球、石块球与防卡死保底抽球，首页直入「无尽挑战」模式。\n\n---\n安装包对应机型说明：\n- 1_Band9Pro-10Pro-8Pro__tantanbubble.rpk → 小米手环 9 Pro / 10 Pro / 8 Pro\n- 2_Band9-10-11__tantanbubble.rpk → 小米手环 9 / 10 / 11（跑道屏）\n- 3_RedmiWatch4-5__tantanbubble.rpk → REDMI Watch 4 / 5 / 5 eSIM\n- 4_WatchS3-S4__tantanbubble.rpk → Xiaomi Watch S3 / S4 / S4 eSIM"
+        },
         {
           "version": "2.0.0",
           "content": "1. 防误触退出＋暂停键：游戏内禁止左滑直接退出，左上角改为暂停键（支持继续/重开/局内开关震动/安全退出）\n2. 图标优化：应用图标调整为 100×100 透明底正圆造型\n3. 流畅度优化：升级自适应帧循环与棋盘整层平移下压，大幅降低滑动与消球卡顿\n4. 新增 31～60 关（共 60 关 180 星）：加入「冰晶球」「石块球」双新机制与防卡死保底\n5. 新增「无尽挑战」模式：首页右上角入口，挑战波次高分并自动记录历史最高分"
@@ -52,10 +60,14 @@
       ]
     },
     "xmrw6": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "file_name": "downloads/3_RedmiWatch4-5__tantanbubble.rpk",
-      "versionCode": 4,
+      "versionCode": 5,
       "updatelogs": [
+        {
+          "version": "2.0.1",
+          "content": "【弹弹泡泡 v2.0.1（versionCode: 5）图标清晰度与全系列同步更新】\n\n1. 修复手环 9 Pro / 10 Pro 与手表桌面图标过小问题（方案 A 透明底正圆图标）：\n- 应玩家反馈重绘高清晰透明底正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆，腕上桌面列表显示更饱满清晰。\n\n2. 延续 v2.0.0 全量玩法与流畅度优化：\n- 防误触退出 ＋ 局内暂停菜单（swipeBack: false + 左上角 || 暂停键）；\n- 自适应帧循环 ＋ 棋盘容器整体平移，瞄准消球更跟手顺滑；\n- 60 道关卡（180 星）含冰晶球、石块球与防卡死保底抽球，首页直入「无尽挑战」模式。\n\n---\n安装包对应机型说明：\n- 1_Band9Pro-10Pro-8Pro__tantanbubble.rpk → 小米手环 9 Pro / 10 Pro / 8 Pro\n- 2_Band9-10-11__tantanbubble.rpk → 小米手环 9 / 10 / 11（跑道屏）\n- 3_RedmiWatch4-5__tantanbubble.rpk → REDMI Watch 4 / 5 / 5 eSIM\n- 4_WatchS3-S4__tantanbubble.rpk → Xiaomi Watch S3 / S4 / S4 eSIM"
+        },
         {
           "version": "2.0.0",
           "content": "1. 防误触退出＋暂停键：游戏内禁止左滑直接退出，左上角改为暂停键（支持继续/重开/局内开关震动/安全退出）\n2. 图标优化：应用图标调整为 100×100 透明底正圆造型\n3. 流畅度优化：升级自适应帧循环与棋盘整层平移下压，大幅降低滑动与消球卡顿\n4. 新增 31～60 关（共 60 关 180 星）：加入「冰晶球」「石块球」双新机制与防卡死保底\n5. 新增「无尽挑战」模式：首页右上角入口，挑战波次高分并自动记录历史最高分"
@@ -67,10 +79,14 @@
       ]
     },
     "xmb10": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "file_name": "downloads/2_Band9-10-11__tantanbubble.rpk",
-      "versionCode": 4,
+      "versionCode": 5,
       "updatelogs": [
+        {
+          "version": "2.0.1",
+          "content": "【弹弹泡泡 v2.0.1（versionCode: 5）图标清晰度与全系列同步更新】\n\n1. 修复手环 9 Pro / 10 Pro 与手表桌面图标过小问题（方案 A 透明底正圆图标）：\n- 应玩家反馈重绘高清晰透明底正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆，腕上桌面列表显示更饱满清晰。\n\n2. 延续 v2.0.0 全量玩法与流畅度优化：\n- 防误触退出 ＋ 局内暂停菜单（swipeBack: false + 左上角 || 暂停键）；\n- 自适应帧循环 ＋ 棋盘容器整体平移，瞄准消球更跟手顺滑；\n- 60 道关卡（180 星）含冰晶球、石块球与防卡死保底抽球，首页直入「无尽挑战」模式。\n\n---\n安装包对应机型说明：\n- 1_Band9Pro-10Pro-8Pro__tantanbubble.rpk → 小米手环 9 Pro / 10 Pro / 8 Pro\n- 2_Band9-10-11__tantanbubble.rpk → 小米手环 9 / 10 / 11（跑道屏）\n- 3_RedmiWatch4-5__tantanbubble.rpk → REDMI Watch 4 / 5 / 5 eSIM\n- 4_WatchS3-S4__tantanbubble.rpk → Xiaomi Watch S3 / S4 / S4 eSIM"
+        },
         {
           "version": "2.0.0",
           "content": "1. 防误触退出＋暂停键：游戏内禁止左滑直接退出，左上角改为暂停键（支持继续/重开/局内开关震动/安全退出）\n2. 图标优化：应用图标调整为 100×100 透明底正圆造型\n3. 流畅度优化：升级自适应帧循环与棋盘整层平移下压，大幅降低滑动与消球卡顿\n4. 新增 31～60 关（共 60 关 180 星）：加入「冰晶球」「石块球」双新机制与防卡死保底\n5. 新增「无尽挑战」模式：首页右上角入口，挑战波次高分并自动记录历史最高分"
@@ -82,10 +98,14 @@
       ]
     },
     "xmb10nfc": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "file_name": "downloads/2_Band9-10-11__tantanbubble.rpk",
-      "versionCode": 4,
+      "versionCode": 5,
       "updatelogs": [
+        {
+          "version": "2.0.1",
+          "content": "【弹弹泡泡 v2.0.1（versionCode: 5）图标清晰度与全系列同步更新】\n\n1. 修复手环 9 Pro / 10 Pro 与手表桌面图标过小问题（方案 A 透明底正圆图标）：\n- 应玩家反馈重绘高清晰透明底正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆，腕上桌面列表显示更饱满清晰。\n\n2. 延续 v2.0.0 全量玩法与流畅度优化：\n- 防误触退出 ＋ 局内暂停菜单（swipeBack: false + 左上角 || 暂停键）；\n- 自适应帧循环 ＋ 棋盘容器整体平移，瞄准消球更跟手顺滑；\n- 60 道关卡（180 星）含冰晶球、石块球与防卡死保底抽球，首页直入「无尽挑战」模式。\n\n---\n安装包对应机型说明：\n- 1_Band9Pro-10Pro-8Pro__tantanbubble.rpk → 小米手环 9 Pro / 10 Pro / 8 Pro\n- 2_Band9-10-11__tantanbubble.rpk → 小米手环 9 / 10 / 11（跑道屏）\n- 3_RedmiWatch4-5__tantanbubble.rpk → REDMI Watch 4 / 5 / 5 eSIM\n- 4_WatchS3-S4__tantanbubble.rpk → Xiaomi Watch S3 / S4 / S4 eSIM"
+        },
         {
           "version": "2.0.0",
           "content": "1. 防误触退出＋暂停键：游戏内禁止左滑直接退出，左上角改为暂停键（支持继续/重开/局内开关震动/安全退出）\n2. 图标优化：应用图标调整为 100×100 透明底正圆造型\n3. 流畅度优化：升级自适应帧循环与棋盘整层平移下压，大幅降低滑动与消球卡顿\n4. 新增 31～60 关（共 60 关 180 星）：加入「冰晶球」「石块球」双新机制与防卡死保底\n5. 新增「无尽挑战」模式：首页右上角入口，挑战波次高分并自动记录历史最高分"
@@ -97,10 +117,14 @@
       ]
     },
     "xmb10p": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "file_name": "downloads/1_Band9Pro-10Pro-8Pro__tantanbubble.rpk",
-      "versionCode": 4,
+      "versionCode": 5,
       "updatelogs": [
+        {
+          "version": "2.0.1",
+          "content": "【弹弹泡泡 v2.0.1（versionCode: 5）图标清晰度与全系列同步更新】\n\n1. 修复手环 9 Pro / 10 Pro 与手表桌面图标过小问题（方案 A 透明底正圆图标）：\n- 应玩家反馈重绘高清晰透明底正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆，腕上桌面列表显示更饱满清晰。\n\n2. 延续 v2.0.0 全量玩法与流畅度优化：\n- 防误触退出 ＋ 局内暂停菜单（swipeBack: false + 左上角 || 暂停键）；\n- 自适应帧循环 ＋ 棋盘容器整体平移，瞄准消球更跟手顺滑；\n- 60 道关卡（180 星）含冰晶球、石块球与防卡死保底抽球，首页直入「无尽挑战」模式。\n\n---\n安装包对应机型说明：\n- 1_Band9Pro-10Pro-8Pro__tantanbubble.rpk → 小米手环 9 Pro / 10 Pro / 8 Pro\n- 2_Band9-10-11__tantanbubble.rpk → 小米手环 9 / 10 / 11（跑道屏）\n- 3_RedmiWatch4-5__tantanbubble.rpk → REDMI Watch 4 / 5 / 5 eSIM\n- 4_WatchS3-S4__tantanbubble.rpk → Xiaomi Watch S3 / S4 / S4 eSIM"
+        },
         {
           "version": "2.0.0",
           "content": "1. 防误触退出＋暂停键：游戏内禁止左滑直接退出，左上角改为暂停键（支持继续/重开/局内开关震动/安全退出）\n2. 图标优化：应用图标调整为 100×100 透明底正圆造型\n3. 流畅度优化：升级自适应帧循环与棋盘整层平移下压，大幅降低滑动与消球卡顿\n4. 新增 31～60 关（共 60 关 180 星）：加入「冰晶球」「石块球」双新机制与防卡死保底\n5. 新增「无尽挑战」模式：首页右上角入口，挑战波次高分并自动记录历史最高分"
@@ -112,10 +136,14 @@
       ]
     },
     "xmb11": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "file_name": "downloads/2_Band9-10-11__tantanbubble.rpk",
-      "versionCode": 4,
+      "versionCode": 5,
       "updatelogs": [
+        {
+          "version": "2.0.1",
+          "content": "【弹弹泡泡 v2.0.1（versionCode: 5）图标清晰度与全系列同步更新】\n\n1. 修复手环 9 Pro / 10 Pro 与手表桌面图标过小问题（方案 A 透明底正圆图标）：\n- 应玩家反馈重绘高清晰透明底正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆，腕上桌面列表显示更饱满清晰。\n\n2. 延续 v2.0.0 全量玩法与流畅度优化：\n- 防误触退出 ＋ 局内暂停菜单（swipeBack: false + 左上角 || 暂停键）；\n- 自适应帧循环 ＋ 棋盘容器整体平移，瞄准消球更跟手顺滑；\n- 60 道关卡（180 星）含冰晶球、石块球与防卡死保底抽球，首页直入「无尽挑战」模式。\n\n---\n安装包对应机型说明：\n- 1_Band9Pro-10Pro-8Pro__tantanbubble.rpk → 小米手环 9 Pro / 10 Pro / 8 Pro\n- 2_Band9-10-11__tantanbubble.rpk → 小米手环 9 / 10 / 11（跑道屏）\n- 3_RedmiWatch4-5__tantanbubble.rpk → REDMI Watch 4 / 5 / 5 eSIM\n- 4_WatchS3-S4__tantanbubble.rpk → Xiaomi Watch S3 / S4 / S4 eSIM"
+        },
         {
           "version": "2.0.0",
           "content": "1. 防误触退出＋暂停键：游戏内禁止左滑直接退出，左上角改为暂停键（支持继续/重开/局内开关震动/安全退出）\n2. 图标优化：应用图标调整为 100×100 透明底正圆造型\n3. 流畅度优化：升级自适应帧循环与棋盘整层平移下压，大幅降低滑动与消球卡顿\n4. 新增 31～60 关（共 60 关 180 星）：加入「冰晶球」「石块球」双新机制与防卡死保底\n5. 新增「无尽挑战」模式：首页右上角入口，挑战波次高分并自动记录历史最高分"
@@ -127,10 +155,14 @@
       ]
     },
     "xmb11nfc": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "file_name": "downloads/2_Band9-10-11__tantanbubble.rpk",
-      "versionCode": 4,
+      "versionCode": 5,
       "updatelogs": [
+        {
+          "version": "2.0.1",
+          "content": "【弹弹泡泡 v2.0.1（versionCode: 5）图标清晰度与全系列同步更新】\n\n1. 修复手环 9 Pro / 10 Pro 与手表桌面图标过小问题（方案 A 透明底正圆图标）：\n- 应玩家反馈重绘高清晰透明底正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆，腕上桌面列表显示更饱满清晰。\n\n2. 延续 v2.0.0 全量玩法与流畅度优化：\n- 防误触退出 ＋ 局内暂停菜单（swipeBack: false + 左上角 || 暂停键）；\n- 自适应帧循环 ＋ 棋盘容器整体平移，瞄准消球更跟手顺滑；\n- 60 道关卡（180 星）含冰晶球、石块球与防卡死保底抽球，首页直入「无尽挑战」模式。\n\n---\n安装包对应机型说明：\n- 1_Band9Pro-10Pro-8Pro__tantanbubble.rpk → 小米手环 9 Pro / 10 Pro / 8 Pro\n- 2_Band9-10-11__tantanbubble.rpk → 小米手环 9 / 10 / 11（跑道屏）\n- 3_RedmiWatch4-5__tantanbubble.rpk → REDMI Watch 4 / 5 / 5 eSIM\n- 4_WatchS3-S4__tantanbubble.rpk → Xiaomi Watch S3 / S4 / S4 eSIM"
+        },
         {
           "version": "2.0.0",
           "content": "1. 防误触退出＋暂停键：游戏内禁止左滑直接退出，左上角改为暂停键（支持继续/重开/局内开关震动/安全退出）\n2. 图标优化：应用图标调整为 100×100 透明底正圆造型\n3. 流畅度优化：升级自适应帧循环与棋盘整层平移下压，大幅降低滑动与消球卡顿\n4. 新增 31～60 关（共 60 关 180 星）：加入「冰晶球」「石块球」双新机制与防卡死保底\n5. 新增「无尽挑战」模式：首页右上角入口，挑战波次高分并自动记录历史最高分"
@@ -142,10 +174,14 @@
       ]
     },
     "xmb9": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "file_name": "downloads/2_Band9-10-11__tantanbubble.rpk",
-      "versionCode": 4,
+      "versionCode": 5,
       "updatelogs": [
+        {
+          "version": "2.0.1",
+          "content": "【弹弹泡泡 v2.0.1（versionCode: 5）图标清晰度与全系列同步更新】\n\n1. 修复手环 9 Pro / 10 Pro 与手表桌面图标过小问题（方案 A 透明底正圆图标）：\n- 应玩家反馈重绘高清晰透明底正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆，腕上桌面列表显示更饱满清晰。\n\n2. 延续 v2.0.0 全量玩法与流畅度优化：\n- 防误触退出 ＋ 局内暂停菜单（swipeBack: false + 左上角 || 暂停键）；\n- 自适应帧循环 ＋ 棋盘容器整体平移，瞄准消球更跟手顺滑；\n- 60 道关卡（180 星）含冰晶球、石块球与防卡死保底抽球，首页直入「无尽挑战」模式。\n\n---\n安装包对应机型说明：\n- 1_Band9Pro-10Pro-8Pro__tantanbubble.rpk → 小米手环 9 Pro / 10 Pro / 8 Pro\n- 2_Band9-10-11__tantanbubble.rpk → 小米手环 9 / 10 / 11（跑道屏）\n- 3_RedmiWatch4-5__tantanbubble.rpk → REDMI Watch 4 / 5 / 5 eSIM\n- 4_WatchS3-S4__tantanbubble.rpk → Xiaomi Watch S3 / S4 / S4 eSIM"
+        },
         {
           "version": "2.0.0",
           "content": "1. 防误触退出＋暂停键：游戏内禁止左滑直接退出，左上角改为暂停键（支持继续/重开/局内开关震动/安全退出）\n2. 图标优化：应用图标调整为 100×100 透明底正圆造型\n3. 流畅度优化：升级自适应帧循环与棋盘整层平移下压，大幅降低滑动与消球卡顿\n4. 新增 31～60 关（共 60 关 180 星）：加入「冰晶球」「石块球」双新机制与防卡死保底\n5. 新增「无尽挑战」模式：首页右上角入口，挑战波次高分并自动记录历史最高分"
@@ -157,10 +193,14 @@
       ]
     },
     "xmb9p": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "file_name": "downloads/1_Band9Pro-10Pro-8Pro__tantanbubble.rpk",
-      "versionCode": 4,
+      "versionCode": 5,
       "updatelogs": [
+        {
+          "version": "2.0.1",
+          "content": "【弹弹泡泡 v2.0.1（versionCode: 5）图标清晰度与全系列同步更新】\n\n1. 修复手环 9 Pro / 10 Pro 与手表桌面图标过小问题（方案 A 透明底正圆图标）：\n- 应玩家反馈重绘高清晰透明底正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆，腕上桌面列表显示更饱满清晰。\n\n2. 延续 v2.0.0 全量玩法与流畅度优化：\n- 防误触退出 ＋ 局内暂停菜单（swipeBack: false + 左上角 || 暂停键）；\n- 自适应帧循环 ＋ 棋盘容器整体平移，瞄准消球更跟手顺滑；\n- 60 道关卡（180 星）含冰晶球、石块球与防卡死保底抽球，首页直入「无尽挑战」模式。\n\n---\n安装包对应机型说明：\n- 1_Band9Pro-10Pro-8Pro__tantanbubble.rpk → 小米手环 9 Pro / 10 Pro / 8 Pro\n- 2_Band9-10-11__tantanbubble.rpk → 小米手环 9 / 10 / 11（跑道屏）\n- 3_RedmiWatch4-5__tantanbubble.rpk → REDMI Watch 4 / 5 / 5 eSIM\n- 4_WatchS3-S4__tantanbubble.rpk → Xiaomi Watch S3 / S4 / S4 eSIM"
+        },
         {
           "version": "2.0.0",
           "content": "1. 防误触退出＋暂停键：游戏内禁止左滑直接退出，左上角改为暂停键（支持继续/重开/局内开关震动/安全退出）\n2. 图标优化：应用图标调整为 100×100 透明底正圆造型\n3. 流畅度优化：升级自适应帧循环与棋盘整层平移下压，大幅降低滑动与消球卡顿\n4. 新增 31～60 关（共 60 关 180 星）：加入「冰晶球」「石块球」双新机制与防卡死保底\n5. 新增「无尽挑战」模式：首页右上角入口，挑战波次高分并自动记录历史最高分"
@@ -180,10 +220,14 @@
       ]
     },
     "xmws3": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "file_name": "downloads/4_WatchS3-S4__tantanbubble.rpk",
-      "versionCode": 4,
+      "versionCode": 5,
       "updatelogs": [
+        {
+          "version": "2.0.1",
+          "content": "【弹弹泡泡 v2.0.1（versionCode: 5）图标清晰度与全系列同步更新】\n\n1. 修复手环 9 Pro / 10 Pro 与手表桌面图标过小问题（方案 A 透明底正圆图标）：\n- 应玩家反馈重绘高清晰透明底正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆，腕上桌面列表显示更饱满清晰。\n\n2. 延续 v2.0.0 全量玩法与流畅度优化：\n- 防误触退出 ＋ 局内暂停菜单（swipeBack: false + 左上角 || 暂停键）；\n- 自适应帧循环 ＋ 棋盘容器整体平移，瞄准消球更跟手顺滑；\n- 60 道关卡（180 星）含冰晶球、石块球与防卡死保底抽球，首页直入「无尽挑战」模式。\n\n---\n安装包对应机型说明：\n- 1_Band9Pro-10Pro-8Pro__tantanbubble.rpk → 小米手环 9 Pro / 10 Pro / 8 Pro\n- 2_Band9-10-11__tantanbubble.rpk → 小米手环 9 / 10 / 11（跑道屏）\n- 3_RedmiWatch4-5__tantanbubble.rpk → REDMI Watch 4 / 5 / 5 eSIM\n- 4_WatchS3-S4__tantanbubble.rpk → Xiaomi Watch S3 / S4 / S4 eSIM"
+        },
         {
           "version": "2.0.0",
           "content": "1. 防误触退出＋暂停键：游戏内禁止左滑直接退出，左上角改为暂停键（支持继续/重开/局内开关震动/安全退出）\n2. 图标优化：应用图标调整为 100×100 透明底正圆造型\n3. 流畅度优化：升级自适应帧循环与棋盘整层平移下压，大幅降低滑动与消球卡顿\n4. 新增 31～60 关（共 60 关 180 星）：加入「冰晶球」「石块球」双新机制与防卡死保底\n5. 新增「无尽挑战」模式：首页右上角入口，挑战波次高分并自动记录历史最高分"
@@ -195,10 +239,14 @@
       ]
     },
     "xmws4xring": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "file_name": "downloads/4_WatchS3-S4__tantanbubble.rpk",
-      "versionCode": 4,
+      "versionCode": 5,
       "updatelogs": [
+        {
+          "version": "2.0.1",
+          "content": "【弹弹泡泡 v2.0.1（versionCode: 5）图标清晰度与全系列同步更新】\n\n1. 修复手环 9 Pro / 10 Pro 与手表桌面图标过小问题（方案 A 透明底正圆图标）：\n- 应玩家反馈重绘高清晰透明底正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆，腕上桌面列表显示更饱满清晰。\n\n2. 延续 v2.0.0 全量玩法与流畅度优化：\n- 防误触退出 ＋ 局内暂停菜单（swipeBack: false + 左上角 || 暂停键）；\n- 自适应帧循环 ＋ 棋盘容器整体平移，瞄准消球更跟手顺滑；\n- 60 道关卡（180 星）含冰晶球、石块球与防卡死保底抽球，首页直入「无尽挑战」模式。\n\n---\n安装包对应机型说明：\n- 1_Band9Pro-10Pro-8Pro__tantanbubble.rpk → 小米手环 9 Pro / 10 Pro / 8 Pro\n- 2_Band9-10-11__tantanbubble.rpk → 小米手环 9 / 10 / 11（跑道屏）\n- 3_RedmiWatch4-5__tantanbubble.rpk → REDMI Watch 4 / 5 / 5 eSIM\n- 4_WatchS3-S4__tantanbubble.rpk → Xiaomi Watch S3 / S4 / S4 eSIM"
+        },
         {
           "version": "2.0.0",
           "content": "1. 防误触退出＋暂停键：游戏内禁止左滑直接退出，左上角改为暂停键（支持继续/重开/局内开关震动/安全退出）\n2. 图标优化：应用图标调整为 100×100 透明底正圆造型\n3. 流畅度优化：升级自适应帧循环与棋盘整层平移下压，大幅降低滑动与消球卡顿\n4. 新增 31～60 关（共 60 关 180 星）：加入「冰晶球」「石块球」双新机制与防卡死保底\n5. 新增「无尽挑战」模式：首页右上角入口，挑战波次高分并自动记录历史最高分"
@@ -210,10 +258,14 @@
       ]
     },
     "xmws441": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "file_name": "downloads/4_WatchS3-S4__tantanbubble.rpk",
-      "versionCode": 4,
+      "versionCode": 5,
       "updatelogs": [
+        {
+          "version": "2.0.1",
+          "content": "【弹弹泡泡 v2.0.1（versionCode: 5）图标清晰度与全系列同步更新】\n\n1. 修复手环 9 Pro / 10 Pro 与手表桌面图标过小问题（方案 A 透明底正圆图标）：\n- 应玩家反馈重绘高清晰透明底正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆，腕上桌面列表显示更饱满清晰。\n\n2. 延续 v2.0.0 全量玩法与流畅度优化：\n- 防误触退出 ＋ 局内暂停菜单（swipeBack: false + 左上角 || 暂停键）；\n- 自适应帧循环 ＋ 棋盘容器整体平移，瞄准消球更跟手顺滑；\n- 60 道关卡（180 星）含冰晶球、石块球与防卡死保底抽球，首页直入「无尽挑战」模式。\n\n---\n安装包对应机型说明：\n- 1_Band9Pro-10Pro-8Pro__tantanbubble.rpk → 小米手环 9 Pro / 10 Pro / 8 Pro\n- 2_Band9-10-11__tantanbubble.rpk → 小米手环 9 / 10 / 11（跑道屏）\n- 3_RedmiWatch4-5__tantanbubble.rpk → REDMI Watch 4 / 5 / 5 eSIM\n- 4_WatchS3-S4__tantanbubble.rpk → Xiaomi Watch S3 / S4 / S4 eSIM"
+        },
         {
           "version": "2.0.0",
           "content": "1. 防误触退出＋暂停键：游戏内禁止左滑直接退出，左上角改为暂停键（支持继续/重开/局内开关震动/安全退出）\n2. 图标优化：应用图标调整为 100×100 透明底正圆造型\n3. 流畅度优化：升级自适应帧循环与棋盘整层平移下压，大幅降低滑动与消球卡顿\n4. 新增 31～60 关（共 60 关 180 星）：加入「冰晶球」「石块球」双新机制与防卡死保底\n5. 新增「无尽挑战」模式：首页右上角入口，挑战波次高分并自动记录历史最高分"
@@ -225,10 +277,14 @@
       ]
     },
     "xmws4": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "file_name": "downloads/4_WatchS3-S4__tantanbubble.rpk",
-      "versionCode": 4,
+      "versionCode": 5,
       "updatelogs": [
+        {
+          "version": "2.0.1",
+          "content": "【弹弹泡泡 v2.0.1（versionCode: 5）图标清晰度与全系列同步更新】\n\n1. 修复手环 9 Pro / 10 Pro 与手表桌面图标过小问题（方案 A 透明底正圆图标）：\n- 应玩家反馈重绘高清晰透明底正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆，腕上桌面列表显示更饱满清晰。\n\n2. 延续 v2.0.0 全量玩法与流畅度优化：\n- 防误触退出 ＋ 局内暂停菜单（swipeBack: false + 左上角 || 暂停键）；\n- 自适应帧循环 ＋ 棋盘容器整体平移，瞄准消球更跟手顺滑；\n- 60 道关卡（180 星）含冰晶球、石块球与防卡死保底抽球，首页直入「无尽挑战」模式。\n\n---\n安装包对应机型说明：\n- 1_Band9Pro-10Pro-8Pro__tantanbubble.rpk → 小米手环 9 Pro / 10 Pro / 8 Pro\n- 2_Band9-10-11__tantanbubble.rpk → 小米手环 9 / 10 / 11（跑道屏）\n- 3_RedmiWatch4-5__tantanbubble.rpk → REDMI Watch 4 / 5 / 5 eSIM\n- 4_WatchS3-S4__tantanbubble.rpk → Xiaomi Watch S3 / S4 / S4 eSIM"
+        },
         {
           "version": "2.0.0",
           "content": "1. 防误触退出＋暂停键：游戏内禁止左滑直接退出，左上角改为暂停键（支持继续/重开/局内开关震动/安全退出）\n2. 图标优化：应用图标调整为 100×100 透明底正圆造型\n3. 流畅度优化：升级自适应帧循环与棋盘整层平移下压，大幅降低滑动与消球卡顿\n4. 新增 31～60 关（共 60 关 180 星）：加入「冰晶球」「石块球」双新机制与防卡死保底\n5. 新增「无尽挑战」模式：首页右上角入口，挑战波次高分并自动记录历史最高分"
@@ -240,10 +296,14 @@
       ]
     },
     "xmws541": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "file_name": "downloads/4_WatchS3-S4__tantanbubble.rpk",
-      "versionCode": 4,
+      "versionCode": 5,
       "updatelogs": [
+        {
+          "version": "2.0.1",
+          "content": "【弹弹泡泡 v2.0.1（versionCode: 5）图标清晰度与全系列同步更新】\n\n1. 修复手环 9 Pro / 10 Pro 与手表桌面图标过小问题（方案 A 透明底正圆图标）：\n- 应玩家反馈重绘高清晰透明底正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆，腕上桌面列表显示更饱满清晰。\n\n2. 延续 v2.0.0 全量玩法与流畅度优化：\n- 防误触退出 ＋ 局内暂停菜单（swipeBack: false + 左上角 || 暂停键）；\n- 自适应帧循环 ＋ 棋盘容器整体平移，瞄准消球更跟手顺滑；\n- 60 道关卡（180 星）含冰晶球、石块球与防卡死保底抽球，首页直入「无尽挑战」模式。\n\n---\n安装包对应机型说明：\n- 1_Band9Pro-10Pro-8Pro__tantanbubble.rpk → 小米手环 9 Pro / 10 Pro / 8 Pro\n- 2_Band9-10-11__tantanbubble.rpk → 小米手环 9 / 10 / 11（跑道屏）\n- 3_RedmiWatch4-5__tantanbubble.rpk → REDMI Watch 4 / 5 / 5 eSIM\n- 4_WatchS3-S4__tantanbubble.rpk → Xiaomi Watch S3 / S4 / S4 eSIM"
+        },
         {
           "version": "2.0.0",
           "content": "1. 防误触退出＋暂停键：游戏内禁止左滑直接退出，左上角改为暂停键（支持继续/重开/局内开关震动/安全退出）\n2. 图标优化：应用图标调整为 100×100 透明底正圆造型\n3. 流畅度优化：升级自适应帧循环与棋盘整层平移下压，大幅降低滑动与消球卡顿\n4. 新增 31～60 关（共 60 关 180 星）：加入「冰晶球」「石块球」双新机制与防卡死保底\n5. 新增「无尽挑战」模式：首页右上角入口，挑战波次高分并自动记录历史最高分"
@@ -255,10 +315,14 @@
       ]
     },
     "xmws5": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "file_name": "downloads/4_WatchS3-S4__tantanbubble.rpk",
-      "versionCode": 4,
+      "versionCode": 5,
       "updatelogs": [
+        {
+          "version": "2.0.1",
+          "content": "【弹弹泡泡 v2.0.1（versionCode: 5）图标清晰度与全系列同步更新】\n\n1. 修复手环 9 Pro / 10 Pro 与手表桌面图标过小问题（方案 A 透明底正圆图标）：\n- 应玩家反馈重绘高清晰透明底正圆图标：手环 9 Pro / 10 Pro / 8 Pro 与手表升级 192×192 清晰正圆，手环 9 / 10 / 11 跑道屏专属优化 100×100 正圆，腕上桌面列表显示更饱满清晰。\n\n2. 延续 v2.0.0 全量玩法与流畅度优化：\n- 防误触退出 ＋ 局内暂停菜单（swipeBack: false + 左上角 || 暂停键）；\n- 自适应帧循环 ＋ 棋盘容器整体平移，瞄准消球更跟手顺滑；\n- 60 道关卡（180 星）含冰晶球、石块球与防卡死保底抽球，首页直入「无尽挑战」模式。\n\n---\n安装包对应机型说明：\n- 1_Band9Pro-10Pro-8Pro__tantanbubble.rpk → 小米手环 9 Pro / 10 Pro / 8 Pro\n- 2_Band9-10-11__tantanbubble.rpk → 小米手环 9 / 10 / 11（跑道屏）\n- 3_RedmiWatch4-5__tantanbubble.rpk → REDMI Watch 4 / 5 / 5 eSIM\n- 4_WatchS3-S4__tantanbubble.rpk → Xiaomi Watch S3 / S4 / S4 eSIM"
+        },
         {
           "version": "2.0.0",
           "content": "1. 防误触退出＋暂停键：游戏内禁止左滑直接退出，左上角改为暂停键（支持继续/重开/局内开关震动/安全退出）\n2. 图标优化：应用图标调整为 100×100 透明底正圆造型\n3. 流畅度优化：升级自适应帧循环与棋盘整层平移下压，大幅降低滑动与消球卡顿\n4. 新增 31～60 关（共 60 关 180 星）：加入「冰晶球」「石块球」双新机制与防卡死保底\n5. 新增「无尽挑战」模式：首页右上角入口，挑战波次高分并自动记录历史最高分"
